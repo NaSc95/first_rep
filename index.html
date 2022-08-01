@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test repo</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+</html>
+<body>
+  <header>
+    <img class="logo" src="/img/logo-insurance.png" alt="logo image" />
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Owners</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Insurance</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Add new person</h1>
+
+    <form>
+      <div class="container1">
+        <div class="form-field">
+          <label for="first-name">First Name: </label>
+          <input type="text" id="first-name" />
+        </div>
+        <div class="form-field">
+          <label for="last-name">Last Name: </label>
+          <input type="text" id="last-name" />
+        </div>
+      </div>
+      <div class="container2">
+        <div class="form-field">
+          <label for="cnp">Identification Number: </label>
+          <input type="text" id="cnp" />
+        </div>
+        <div class="container3">
+          <div class="form-field">
+            <label for="birthdate">Birthdate: </label>
+            <input type="date" id="birthdate" />
+          </div>
+          <div class="form-field">
+            <label for="gender">Gender</label>
+            <select name="Gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="N/A">N/A</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="action-buttons">
+        <button type="submit">Add person</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </main>
+  <footer></footer>
+</body>
